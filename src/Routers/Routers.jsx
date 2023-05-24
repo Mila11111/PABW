@@ -7,6 +7,7 @@ import LandingPage from "../Pages/LandingPage/LandingPage";
 import SearchFlight from "../Pages/Search Flight/SearchFlight";
 import SearchHotel from "../Pages/Search Hotel/SearchHotel";
 import FlightSchedule from "../Pages/Flight Schedule/FlightSchedule";
+import EWallet from "../Pages/E-Wallet/E-Wallet";
 
 const Routers = () => {
   return (
@@ -20,6 +21,7 @@ const Routers = () => {
           <Route path="/search/flight" element={<SearchFlight />} />
           <Route path="/search/hotel" element={<SearchHotel />} />
           <Route path="/search/flight/schedule" element={<FlightSchedule />} />
+          <Route path="/ewallet" element={<EWallet />} />
         </Routes>
       </BrowserRouter>
     </>

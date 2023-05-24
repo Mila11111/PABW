@@ -16,10 +16,14 @@ const Dashboard = () => {
     <>
       <div className="navbarSection">
         <nav className="nav_dahboard">
-          <Link to="/" className="btn button_logout btn btn-danger">Logout</Link>
+          <Link to="/" className="btn button_logout btn btn-danger">
+            Logout
+          </Link>
           <ul>
             <li>
-              <BiWallet className="icon_navbar_login" />
+              <Link to="/ewallet">
+                <BiWallet className="icon_navbar_login" />
+              </Link>
             </li>
             <li>
               <SlBasket className="icon_navbar_login" />
